@@ -74,6 +74,23 @@ html {
 /* banner start */
 .banner {
     padding: 20px 0;
+    position: relative;
+}
+
+#next {
+    font-size: 3.0rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+}
+
+#pre {
+    font-size: 3.0rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    cursor: pointer;
 }
 
 .banner img {

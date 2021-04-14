@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Chủ</title>
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -47,7 +48,9 @@
 
     <!-- banner start -->
     <section class="banner row">
-        <img src="images/banner.jpg" alt="" class="banner__img">
+        <span id="pre" onclick="funcPre()"><i class="fas fa-chevron-circle-left"></i></span>
+        <img src="images/1.jpg" alt="" class="banner__img" id="imgCur">
+        <span id="next" onclick="funcNext()"><i class="fas fa-chevron-circle-right" onclick="funNext"></i></span>
     </section>
     <!-- banner end -->
 
@@ -198,5 +201,7 @@
         <span>Trường Đại học Sư Phạm Kỹ Thuật Hưng Yên</span>
     </footer>
     <!-- footer end -->
+
+    <script src="script.js"></script>
 </body>
 </html>
